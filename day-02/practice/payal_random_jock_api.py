@@ -33,7 +33,7 @@ print (final_jock)
 
 
 json_str = json.dumps(final_jock, indent=4)
-with open("joke_file.txt", "w") as f:
+with open("joke.json", "w") as f:
     f.write(json_str)
 
 f.close()
