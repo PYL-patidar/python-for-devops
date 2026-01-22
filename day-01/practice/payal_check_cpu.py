@@ -14,6 +14,6 @@ def get_cpu_threshold():
 
         print(f"Please check your email, your cpu usage is out of threshold limits.")
     else:
-        print ("CPU in the safe state")
+        print ("CPU in the safe state...")
 
 get_cpu_threshold()
