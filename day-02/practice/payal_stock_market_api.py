@@ -18,3 +18,4 @@ def stock_market_data():
 
 
 stock_market_data()
+#print(dir(requests))

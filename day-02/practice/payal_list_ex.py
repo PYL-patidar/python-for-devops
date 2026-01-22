@@ -23,6 +23,7 @@ print(f"Indian cloud service provider is : {a[-1]}")
 print(dir(a))
 print(a.extend.__doc__)
 
+# this is for Iterate of list
 for cloud in a:
     if cloud == "aws" :
         print(f"World leader for cloud service provider : {cloud}")   
